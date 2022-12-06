@@ -74,6 +74,7 @@ const getAntdLessLoaders = () => [
 ];
 
 module.exports = {
+  // 入口文件配置
   entry: {
     index: path.resolve(ROOT_PATH, './src/index')
   },
